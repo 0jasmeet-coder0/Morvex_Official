@@ -14,6 +14,7 @@ import ClickSpark from "./components/ClickSpark";
 import MouseGlow from "./components/MouseGlow";
 import PageTransition from "./components/PageTransition";
 import CustomCursor from "./components/CustomCursor";
+import SmoothScroll from "./components/SmoothScroll.tsx";
 
 import Home from "./pages/Home";
 import Games from "./pages/Games";
@@ -174,6 +175,7 @@ function App() {
         sparkCount={8}
         duration={500}
       >
+     <SmoothScroll />
      <MouseGlow />
      <CustomCursor />
       <ScrollToTop />

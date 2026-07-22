@@ -40,3 +40,7 @@ button,
 a{
 cursor:none;
 }
+
+body {
+  scroll-behavior: auto;
+}
